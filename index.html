@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet"> 
+
+  <script src="https://kit.fontawesome.com/29a3e2830a.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color:hsl(168, 34%, 41%) }
+    .attribution a { color: #ff706c; text-decoration: none; transition:150ms }
+    .attribution a:hover{border-bottom: solid 2px #ff706c;}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="images/logo.svg" alt="logo">
+    </div>
+
+    <ul class="menu">
+      <li class="menu__element"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__element"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__element"><a class="menu__link" href="#">Projects</a></li>
+      <li class="menu__element-contact"><a class="menu__link-contact" href="#">Contact</a></li>
+    </ul>
+    
+    <div class="ham-button" id="menuButton">
+      <div class="ham-row" id="rowTop"></div>
+      <div class="ham-row" id="rowMid"></div>
+      <div class="ham-row" id="rowBot"></div>
+    </div>
+
+    <ul class="responsive-menu" id="responsiveMenu">
+      <li class="responsive-menu__element"><a class="responsive-menu__link" href="#">About</a></li>
+      <li class="responsive-menu__element"><a class="responsive-menu__link" href="#">Services</a></li>
+      <li class="responsive-menu__element"><a class="responsive-menu__link" href="#">Projects</a></li>
+      <li class="responsive-menu__element-contact"><a class="responsive-menu__link-contact" href="#">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <h1>We are creatives</h1>
+
+  <img src="images/icon-arrow-down.svg" alt="">
+
+</header>
+
+<!--========================================================================
+                  INFO
+=============================================================================-->
+
+<main>
+  <section class="transform-brand">
+    <section class="transform-brand__info">
+      <h2 class="transform-brand__title">Transform your brand</h2>
+      <p class="transform-brand__text">We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <a class="learn-more" href="#">Learn more</a>
+    </section>
+
+    <img class="transform-brand__img" src="images/desktop/image-transform.jpg" alt="Transform">
+
+  </section>
+
+
+  <section class="audience">
+    <section class="audience__info">
+      <h2 class="audience__title">Stant out to the right audience</h2>
+      <p class="audience__text">
+        Using a collaborative formula of designer, researchesrs, photograpgers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+      </p>
+      <a class="learn-more" href="#">Learn more</a>
+    </section>
+
+    <img class="audience__img" src="images/desktop/image-stand-out.jpg" alt="stand out">
+  </section>
+
+
+  <section class="graphic-photo">
+
+    <section class="graphic-design">
+      <h2 class="graphic-design__title">Graphic design</h2>
+      <p class="graphic-design__text">
+        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+      </p>
+    </section>
+
+
+    <section class="photography">
+      <h2 class="photography__title">Photography</h2>
+      <p class="photography__text">
+        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>
+    </section>
+
+  </section>
+
+<!--========================================================================
+                  TESTIMONIALS
+=============================================================================-->
+
+
+  <section class="testimonials">
+    <h3 class="testimonials__title">Client testimonials</h3>
+
+    <div class="testimonial-flex">
+
+      <div class="testimonials__testimonial">
+        <p>  
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+
+        <div class="client-info">
+          <h4>Emily R.</h4>
+          <p>Marketing Director</p>
+        </div>
+
+        <img class="testimonials__profile-picture" src="images/image-emily.jpg" alt="profile-picture">
+      </div>
+
+
+      <div class="testimonials__testimonial">
+        <p>  
+          Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satifying and enjoyble experience.
+        </p>
+
+        <div class="client-info">
+          <h4>Thomas S.</h4>
+          <p>Chief Operating Officer</p>
+        </div>
+
+        <img class="testimonials__profile-picture" src="images/image-thomas.jpg" alt="profile-picture">
+      </div>
+
+      
+      <div class="testimonials__testimonial">
+        <p>  
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+
+        <div class="client-info">
+          <h4>Jennie F.</h4>
+          <p>Business Owner</p>
+        </div>
+
+        <img class="testimonials__profile-picture" src="images/image-jennie.jpg" alt="profile-picture">
+      </div>
+    </div>
+  </section>
+
+<!--========================================================================
+                  GALERY
+=============================================================================-->
+
+  <section class="gallery">
+    <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+    <img src="images/desktop/image-gallery-orange.jpg" alt="">
+    <img src="images/desktop/image-gallery-cone.jpg" alt="">
+    <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+  </section>
+</main>
+
+<footer>
+  <img class="footer__logo" src="images/logo copy.svg" alt="logo">
+
+  <ul class="footer-menu menu">
+    <li class="menu__element"><a class="menu__link" href="#">About</a></li>
+    <li class="menu__element"><a class="menu__link" href="#">Services</a></li>
+    <li class="menu__element"><a class="menu__link" href="#">Projects</a></li>
+  </ul>
+
+  <ul class="social-media">
+    <li class="social-media__element"><a class="social-media__link" href="#"><i class="social-media__logo fab fa-facebook-square"></i></a></li>
+    <li class="social-media__element"><a class="social-media__link" href="#"><i class="social-media__logo fab fa-instagram"></i></a></li>
+    <li class="social-media__element"><a class="social-media__link" href="#"><i class="social-media__logo fab fa-twitter"></i></a></li>
+    <li class="social-media__element"><a class="social-media__link" href="#"><i class="social-media__logo fab fa-pinterest"></i></a></li>
+  </ul>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://www.instagram.com/alexvillhen/">Alejandro Villaescusa</a>.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
