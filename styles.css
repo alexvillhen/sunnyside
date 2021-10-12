@@ -127,12 +127,15 @@ nav{
 }
 
 .ham-button{
+    overflow: hidden;
+    position:relative;
     width:35px;
-    height: 35px;
+    height: 27px;
     background-color: transparent;
     display: none;
     flex-direction: column;
     justify-content: space-around;
+    align-items:flex-start;
 }
 
 .ham-button:hover{
@@ -140,9 +143,20 @@ nav{
 }
 
 .ham-row{
+    position:absolute;
+    transition-duration:500ms;
+    transition-property: transform, right, top, bottom;
     width:100%;
-    height: 10%;
+    height:10%;
     background-color: #fff;
+}
+
+#rowTop{
+ top:0; 
+}
+
+#rowBot{
+    bottom:0;
 }
 
 .responsive-menu{
